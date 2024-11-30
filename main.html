@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <style>
+      .header {
+        background-color: #f44336;
+        color: black;
+      }
+      .left {
+        background-color: #ffeb3b;
+        color: black;
+      }
+      .main {
+        background-color: #8bc34a;
+        color: black;
+      }
+      .right {
+        background-color: #ff9800;
+        color: black;
+      }
+      .footer {
+        background-color: #2196f3;
+        color: black;
+      }
+      .box {
+        padding: 10px;
+        text-align: center;
+        font-weight:bold ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row header">
+        <div class="col-12 box">
+          <p>Header</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-2 left box order-2 order-lg-1">
+          <p>Left Sidebar</p>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-8 main box order-1 order-lg-2">
+          <p>Main Content</p>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-2 right box order-3 order-lg-3">
+          <p>Right Sidebar</p>
+        </div>
+      </div>
+
+      <div class="row footer">
+        <div class="col-12 box">
+          <p>Footer</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

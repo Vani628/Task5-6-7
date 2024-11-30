@@ -1,0 +1,58 @@
+.container {
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+#primary-navigation li a {
+    font-weight: bold;
+}
+
+.hero-unit {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.thumbnails {
+    display: flex;
+    gap: 20px;
+}
+
+.thumbnails img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+aside {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color:black;
+    height: 200px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
+
+a:focus, button:focus {
+    border:2px solid red ;
+    outline-style: solid;
+    outline-color: red;
+
+}
